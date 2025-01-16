@@ -3,7 +3,7 @@
 #include "InputStockage.h"
 #include "Entity.h"
 #include "Food.h"
-class Snake: Entity
+class Snake: public Entity
 {
 protected:
 	std::vector<sf::Vector2f> snakeBody;

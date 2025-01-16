@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include "InputStockage.h"
 #include "Entity.h"
-class Food : Entity
+class Food : public Entity
 {
 protected:
 	sf::Vector2f foodPosition;
